@@ -81,7 +81,7 @@ public class ConvertAlignmentParser extends AbstractXMLObjectParser {
             new String[] {Nucleotides.DESCRIPTION, AminoAcids.DESCRIPTION, Codons.DESCRIPTION, TwoStates.DESCRIPTION,
 		            HiddenCodons.DESCRIPTION+"2",HiddenCodons.DESCRIPTION+"3",HiddenCodons.DESCRIPTION+"4",
                             HiddenCodons.DESCRIPTION+"5",HiddenCodons.DESCRIPTION+"6", HiddenCodons.DESCRIPTION+"7",
-                            HiddenCodons.DESCRIPTION+"8"},
+                            HiddenCodons.DESCRIPTION+"8",HiddenCodons.DESCRIPTION+"9"},
             false )
     };
 }

@@ -100,6 +100,7 @@ public abstract class DataType implements Serializable {
             registerDataType(HiddenCodons.DESCRIPTION + "6-" + GeneticCode.UNIVERSAL.getName(), HiddenCodons.UNIVERSAL_HIDDEN_6);
             registerDataType(HiddenCodons.DESCRIPTION + "7-" + GeneticCode.UNIVERSAL.getName(), HiddenCodons.UNIVERSAL_HIDDEN_7);
             registerDataType(HiddenCodons.DESCRIPTION + "8-" + GeneticCode.UNIVERSAL.getName(), HiddenCodons.UNIVERSAL_HIDDEN_8);
+            registerDataType(HiddenCodons.DESCRIPTION + "9-" + GeneticCode.UNIVERSAL.getName(), HiddenCodons.UNIVERSAL_HIDDEN_9);
             registerDataType(HiddenNucleotides.DESCRIPTION + "1", HiddenNucleotides.NUCLEOTIDE_HIDDEN_1);
             registerDataType(HiddenNucleotides.DESCRIPTION + "2", HiddenNucleotides.NUCLEOTIDE_HIDDEN_2);
             registerDataType(HiddenNucleotides.DESCRIPTION + "3", HiddenNucleotides.NUCLEOTIDE_HIDDEN_3);

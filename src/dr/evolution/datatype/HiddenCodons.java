@@ -40,6 +40,7 @@ public class HiddenCodons extends Codons implements HiddenDataType {
     public static final HiddenCodons UNIVERSAL_HIDDEN_6 = new HiddenCodons(GeneticCode.UNIVERSAL, 6);
     public static final HiddenCodons UNIVERSAL_HIDDEN_7 = new HiddenCodons(GeneticCode.UNIVERSAL, 7);
     public static final HiddenCodons UNIVERSAL_HIDDEN_8 = new HiddenCodons(GeneticCode.UNIVERSAL, 8);
+    public static final HiddenCodons UNIVERSAL_HIDDEN_9 = new HiddenCodons(GeneticCode.UNIVERSAL, 9);
 
     /**
      * Private constructor - DEFAULT_INSTANCE provides the only instance
