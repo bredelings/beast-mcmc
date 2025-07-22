@@ -32,6 +32,7 @@ import dr.inference.model.AbstractModel;
 import dr.inference.model.Model;
 import dr.inference.model.Parameter;
 import dr.inference.model.Variable;
+import dr.evomodel.substmodel.eigen.Eigen3EigenSystem;
 
 import java.util.Arrays;
 
@@ -83,11 +84,7 @@ public abstract class BaseSubstitutionModel extends AbstractModel
         setStateCount(dataType.getStateCount());
 
         if (eigenSystem == null) {
-//            if (this instanceof PairedParalogGeneConversionSubstitutionModel) {
-//                this.eigenSystem = new Eigen3EigenSystem(stateCount);
-//            } else {
-                this.eigenSystem = getDefaultEigenSystem(dataType.getStateCount());
-//            }
+            this.eigenSystem = new Eigen3EigenSystem(stateCount);
         }
         else {
             this.eigenSystem = eigenSystem;
